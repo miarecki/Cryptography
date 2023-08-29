@@ -10,7 +10,7 @@ A new modular challenge! Download the message.txt [here](https://artifacts.picoc
 
 Next, we import the numbers from *message.txt* into a list. 
 
-```
+```python
 with open("message.txt", 'r') as f:
     numbers = [[int(num) for num in line.split()] for line in f][0]
 ```
@@ -18,12 +18,12 @@ with open("message.txt", 'r') as f:
 
 Then, calculate modular (multiplicative) inverses mod $41$ for each of them. In other words, we need to find an integer $a$ such that $ax \equiv 1 \pmod{41}$ 
 
-```
+```python
 numbers_inv_mod41 = [inverse(x,41) for x in numbers]
 ```
 Now, let's map the numbers from `numbers_inv_mod41` as requested using a list comprehension:
 
-```
+```python
 result = [
     alphabet[x - 1] if x <= 26 else digits[x % 27] if x != 37 else "_"
     for x in numbers_inv_mod41
@@ -32,7 +32,7 @@ result = [
 
 Finally, we print out the flag:
 
-```
+```python
 flag = "".join(result)
 print(f'picoCTF\u007b{flag}\u007d')
 ```
