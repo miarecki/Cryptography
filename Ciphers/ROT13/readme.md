@@ -11,7 +11,7 @@ $(x + 13) + 13 \equiv x + 26 \equiv x \pmod{26}$ for any basic Latin-alphabet te
 
 ## Python code
 
-For Python implementation of **ROT13** check out [main.py](https://github.com/miarecki/Cryptography/blob/main/Ciphers/ROT13/main.py)
+For a Python implementation of the **ROT13** cipher, you can refer to [main.py](https://github.com/miarecki/Cryptography/blob/main/Ciphers/ROT13/main.py)
 
 ### Sources
 
