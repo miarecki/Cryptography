@@ -28,7 +28,7 @@ decrypted = "".join(["".join([x[2], x[0], x[1]]) for x in split])
 print(decrypted)
 ```
 
-We obrain the orignal data (and the flag!):
+We obtain the original data (and the flag!):
 
 ```
 The flag is picoCTF{7R4N5P051N6_15_3XP3N51V3_109AB02E}
