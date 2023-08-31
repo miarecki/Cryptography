@@ -10,7 +10,7 @@ The message is:
 heTfl g as iicpCTo{7F4NRP051N5_16_35P3X51N3_V091B0AE}2
 ```
 
-Upon close examination of the first three characters, it's reasonable to assume that the first word in "The". Therefore, each block of $3$ must have been scrambled (permutated) in the following way:
+Upon close examination of the first three characters, it's reasonable to assume that the first word is *"The"*. Therefore, each block of $3$ must have been scrambled (permutated) in the following way:
 
 $$012 \rightarrow 201$$
 
